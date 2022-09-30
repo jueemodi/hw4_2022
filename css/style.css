@@ -129,6 +129,7 @@ nav li:hover, nav li:focus{
   border: 2px solid black;
 }
 
+@media screen and (max-width: 800px){
 /* Step 4: Write selector/rule property to style the container */
 .container{
   display:grid;
@@ -200,7 +201,7 @@ first div in the grid  and place it in the grid. */
   text-align: center;
   margin: auto;
 }
-
+}
 /* Add your media query here */
 @media screen and (min-width: 800px){
   
