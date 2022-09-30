@@ -140,7 +140,7 @@ nav li:hover, nav li:focus{
 first div in the grid  and place it in the grid. */
 .container div:first-child{ /*JM: unsure what to apply this to*/
   
-  background-image: url("images/header.jpg");
+  background-image: url("../images/header.jpg");
   grid-column: 1 / -1;
   background-attachment: fixed; /* Parallax effect */     
   background-position: center;  /* Parallax effect */
